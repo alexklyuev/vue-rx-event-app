@@ -1,0 +1,32 @@
+{
+  "name": "event-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server --inline --port 3200 --content-base ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^5.2.0",
+    "vue": "^2.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "awesome-typescript-loader": "^3.1.2",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^5.0.1",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.13.1",
+    "typescript": "^2.2.2",
+    "vue-class-component": "^5.0.1",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
